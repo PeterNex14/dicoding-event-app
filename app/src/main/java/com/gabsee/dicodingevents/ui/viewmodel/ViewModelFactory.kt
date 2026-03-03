@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.gabsee.dicodingevents.di.Injection
-import com.gabsee.dicodingevents.repository.EventRepository
-import com.gabsee.dicodingevents.repository.SettingRepository
+import com.gabsee.dicodingevents.data.repository.EventRepository
+import com.gabsee.dicodingevents.data.repository.SettingRepository
 import kotlin.concurrent.Volatile
 
 class ViewModelFactory private constructor(

@@ -5,8 +5,8 @@ import com.gabsee.dicodingevents.data.local.room.EventDatabase
 import com.gabsee.dicodingevents.data.remote.retrofit.ApiConfig
 import com.gabsee.dicodingevents.preferences.SettingPreferences
 import com.gabsee.dicodingevents.preferences.dataStore
-import com.gabsee.dicodingevents.repository.EventRepository
-import com.gabsee.dicodingevents.repository.SettingRepository
+import com.gabsee.dicodingevents.data.repository.EventRepository
+import com.gabsee.dicodingevents.data.repository.SettingRepository
 
 object Injection {
     fun provideSettingRepository(context: Context): SettingRepository {

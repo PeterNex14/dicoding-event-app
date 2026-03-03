@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.gabsee.dicodingevents.data.Result
 import com.gabsee.dicodingevents.data.local.entity.EventEntity
-import com.gabsee.dicodingevents.repository.EventRepository
+import com.gabsee.dicodingevents.data.repository.EventRepository
 import kotlinx.coroutines.launch
 
 class FinishedViewModel(private val repository: EventRepository) : ViewModel() {

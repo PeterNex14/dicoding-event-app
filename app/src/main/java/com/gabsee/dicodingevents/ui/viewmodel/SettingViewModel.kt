@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.gabsee.dicodingevents.repository.SettingRepository
+import com.gabsee.dicodingevents.data.repository.SettingRepository
 import kotlinx.coroutines.launch
 
 class SettingViewModel(private val repository: SettingRepository): ViewModel() {
