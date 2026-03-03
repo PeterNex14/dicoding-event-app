@@ -52,7 +52,7 @@ com.gabsee.dicodingevents
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/DicodingEvents.git
+   git clone https://github.com/PeterNex14/DicodingEvents.git
    ```
 2. **Open the project** in Android Studio.
 3. **Build and Run** the application on an emulator or physical device.
