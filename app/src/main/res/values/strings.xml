@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">DicodingEvents</string>
+    <string name="bookmark_button">Bookmark Button</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_finished">Finished</string>
+    <string name="tab_bookmark">Bookmark</string>
+
+
+    <string name="tv_title_bookmarked">Bookmarked Events</string>
+    <string name="tv_title_finished">Finished Event</string>
+    <string name="tv_title_upcoming">Upcoming Event</string>
+    <string name="tv_header_home">Explore Events</string>
+    <string name="btn_cta">Daftar Sekarang</string>
+    <string name="label_description">Deskripsi</string>
+    <string name="event_image">Event Image</string>
+    <string name="toggle_bookmark">Toggle Bookmark</string>
+    <string name="tab_settings">Settings</string>
+    <string name="back_button_cd">Kembali</string>
+    <string name="upcoming_count">0</string>
+    <string name="upcoming_count_title">Upcoming</string>
+    <string name="finished_count">0</string>
+    <string name="finished_count_title">Finished</string>
+    <string name="fragment_settings_title">Settings</string>
+    <string name="iv_cd_dark_mode">Mode Gelap</string>
+    <string name="theme_setting_title">Mode Gelap</string>
+    <string name="theme_setting_description">Ubah tampilan aplikasi menjadi gelap</string>
+    <string name="reminder_setting_icon_cd">Daily Reminder</string>
+    <string name="reminder_setting_title">Notifications</string>
+    <string name="reminder_setting_description">Notifikasi event terdekat setiap hari</string>
+
+    <string name="event_owner">Oleh: %1$s</string>
+    <string name="event_time_range">%1$s - %2$s</string>
+    <string name="event_quota">Sisa Kuota: %1$d</string>
+    <string name="message_bookmarked">Berhasil disimpan</string>
+    <string name="message_unbookmarked">Dihapus dari bookmark</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/navigation_home">
+
+
+    <fragment
+        android:id="@+id/navigation_bookmark"
+        android:name="com.gabsee.dicodingevents.ui.screen.BookFragment"
+        android:label="fragment_book"
+        tools:layout="@layout/fragment_book" >
+        <action
+            android:id="@+id/action_navigation_bookmark_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_finished"
+        android:name="com.gabsee.dicodingevents.ui.screen.FinishedFragment"
+        android:label="fragment_finished"
+        tools:layout="@layout/fragment_finished" >
+        <action
+            android:id="@+id/action_navigation_finished_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.gabsee.dicodingevents.ui.screen.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_upcoming"
+        android:name="com.gabsee.dicodingevents.ui.screen.UpcomingFragment"
+        android:label="fragment_upcoming"
+        tools:layout="@layout/fragment_upcoming" >
+        <action
+            android:id="@+id/action_navigation_upcoming_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.gabsee.dicodingevents.ui.screen.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail"
+        >
+        <argument
+            android:name="id"
+            app:argType="integer"/>
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.gabsee.dicodingevents.ui.screen.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
