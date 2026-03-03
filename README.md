@@ -59,7 +59,9 @@ com.gabsee.dicodingevents
 
 ## Screenshots
 
-![demo](demo.gif)
+<p align="center">
+  <img src="demo.gif" width="300" title="Application Demo">
+</p>
 
 ## License
 
